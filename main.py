@@ -48,6 +48,7 @@ def generate_demo_city(grid, rows):
     return start, end
 
 def main():
+    #comment
     gap = WIDTH // ROWS
     grid = [[Node(i, j, gap, ROWS) for j in range(ROWS)] for i in range(ROWS)]
     start = end = None
